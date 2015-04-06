@@ -1,0 +1,124 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://certificacion.educatablet.com:9797/myaccount"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "UP_ID"
+      },
+      "text": "jorge.castaneda@educatablet.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "UP_PASSWORD_LOGIN"
+      },
+      "text": "Etc123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "b1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Panel Editorial"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='page-content']/div[1]/a[1]/i"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"fakeimg\"]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//tbody[@id='tbody']/tr[2]/td[2]/a[1]/img"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "button.mfp-close"
+      }
+    },
+    {
+      "type": "clickElement",
+      "step_name": "12.",
+      "locator": {
+        "type": "id",
+        "value": "title"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='modal-Contentinfo']//button[.='OK']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "LOS CAMINOS DEL SABER SOCIALES 7. EDICIÓN PARA EL DOCENTE"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='modal-Contentinfo']//button[.='OK']"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
