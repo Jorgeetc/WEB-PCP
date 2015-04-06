@@ -1,0 +1,260 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://certificacion.educatablet.com:9797/MyAccount"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "UP_ID"
+      },
+      "text": "jorge.castaneda@educatablet.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "UP_PASSWORD_LOGIN"
+      },
+      "text": "Etc123456"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "b1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Panel Editorial"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='page-content']/div[1]/a[1]/i"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Add Titles"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "val_title"
+      },
+      "text": "Prueba BD Adobe e Imprint"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "PR_DESCRIPTION"
+      },
+      "text": "Prueba BD Adobe e Imprint"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Please select"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "val_publisher_chzn_o_118"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "10000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.btn.btn-success > i.halfling-plus"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "firstNameImprint"
+      },
+      "text": "Imprint Selemiun Builder III"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "emailImprint"
+      },
+      "text": "isb@etc.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "websiteImprint"
+      },
+      "text": "www.isb.co.ve"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='beforeImprint']/table/tbody/tr[4]/td[1]/div/div/div/select//option[44]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btnvalidarImprint"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "10000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btnokImprint"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "10000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='dvImprint']/div/div/div/select//option[6]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Please select author"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "slt_author_chzn_o_1"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='inside_content']/div[1]/div[6]/div/div/select//option[2]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "isbn_13"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "masked_isbn13"
+      },
+      "text": "0099887766123"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='inside_content']/div[2]/div[4]/div/div/select//option[2]"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "val_file2"
+      },
+      "text": "C:\\principito.pdf"
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "val_filecover"
+      },
+      "text": "C:\\Img4.jpg"
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "file_extracto"
+      },
+      "text": "C:\\MVP_Template.pdf"
+    },
+    {
+      "type": "pause",
+      "waitTime": "10000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    }
+  ],
+  "data": {
+    "configs": {
+      "manual": {
+        "imgxx": "C:\\Img2.jpg"
+      },
+      "none": {}
+    },
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 260
+}
