@@ -1,0 +1,401 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://store.educatablet.com"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "UP_ID"
+      },
+      "text": "mcarrate@porrua.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "UP_PASSWORD_LOGIN"
+      },
+      "text": "Educa1234"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "name",
+        "value": "b1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Panel Editorial"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='page-content']/div[1]/a[1]/i"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Add Titles"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "val_title"
+      },
+      "text": "Prueba BD Adobe Editorial Producción"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "PR_DESCRIPTION"
+      },
+      "text": "Prueba BD Adobe Editorial Producción"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "MARICRUZ"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "val_publisher_chzn_o_0"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.btn.btn-success > i.halfling-plus"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "firstNameImprint"
+      },
+      "text": "Zeditorial"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "emailImprint"
+      },
+      "text": "Zeditorial.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "emailImprint"
+      },
+      "text": "zeditorial@etc.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "websiteImprint"
+      },
+      "text": "www.zeditorial.co.ve"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='beforeImprint']/table/tbody/tr[4]/td[1]/div/div/div/select//option[8]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btnvalidarImprint"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btnokImprint"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='dvImprint']/div/div/div/select//option[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btnAddAuthor"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "identification"
+      },
+      "text": "12345"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "firstNameAuthor"
+      },
+      "text": "Zprimero"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "secondName"
+      },
+      "text": "Zegudno"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "lastNameAuthor"
+      },
+      "text": "ZSegu"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "secondlastName"
+      },
+      "text": "Zpellido"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "website"
+      },
+      "text": "zprimero.co.ve"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "email"
+      },
+      "text": "zprimero@ect.com"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='before']/table/tbody/tr[5]/td[1]/div/div/div/select//option[43]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btnvalidar"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btnok"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "b"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "slt_author_chzn_o_1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "dvAuthor"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='inside_content']/div[1]/div[6]/div/div/select//option[2]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "isbn_13"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "masked_isbn13"
+      },
+      "text": "0000000000001"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='inside_content']/div[2]/div[4]/div/div/select//option[2]"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "val_file2"
+      },
+      "text": "C:\\principito.pdf"
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "val_filecover"
+      },
+      "text": "C:\\Img1.jpg"
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "file_extracto"
+      },
+      "text": "C:\\MVP_Template.pdf"
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "MARICRUZ"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "val_publisher_chzn_o_0"
+      }
+    }
+  ],
+  "data": {
+    "configs": {
+      "manual": {
+        "imgxx": "C:\\Img2.jpg"
+      },
+      "none": {}
+    },
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 260
+}
